@@ -1,0 +1,23 @@
+header{background-color: rgba(0, 255, 255, 0.345);
+
+}
+body{
+    background-image:url('download.png');
+    
+    background-repeat: round;
+    background-position: right bottom;
+}    
+#d5{ background:radial-gradient(rgba(0, 255, 251, 0.384),rgba(255, 0, 0, 0.479));
+
+} 
+#d6{
+    height: 300px;
+    width: 300px;
+    animation-name: db;
+    animation-duration: 20s;
+}
+@keyframes db{
+    0%{background-color: black;}
+    25%{background-color: rgba(0, 128, 0, 0.651);}
+    50%{background-color: rgba(240, 255, 255, 0.228);}
+}
